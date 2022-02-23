@@ -1,0 +1,14 @@
+global:
+  clusterConfig:
+    name: ashwinc-global-agent
+
+# namespace: "sysdig-agent-custom"
+# clusterName: ashwinc-local-agent
+
+sysdig:
+  disableCaptures: true
+  accessKey: 35da3ab0-0a8d-4673-b268-a60ced78a488
+  settings:
+    collector: collector-staging2.sysdigcloud.com
+    collector_port: 6443
+    # k8s_cluster_name: ashwinc-settings-agent
